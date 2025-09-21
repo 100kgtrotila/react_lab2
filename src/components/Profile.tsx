@@ -25,12 +25,12 @@ const Profile: React.FC<ProfileProps> = ({ name, role, avatarUrl, bgColor }) => 
                 </div>
 
                 <div className="pt-12 text-center">
-                    <h3 className="text-xl font-bold text-gray-900">{name}</h3>
+                    <h3 className="text-xl font-bold text-black">{name}</h3>
                     <p className="mt-1 text-sm font-medium text-gray-500">{role}</p>
                 </div>
 
                 <div className="mt-6 text-center">
-                    <button className="px-4 py-2 bg-blue-600 text-white text-sm font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-colors">
+                    <button className="px-4 py-2 bg-white text-black text-sm font-semibold rounded-lg shadow-md hover:bg-gray-100 transition-colors">
                         View Profile
                     </button>
                 </div>

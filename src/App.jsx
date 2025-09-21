@@ -3,14 +3,14 @@ import Profile from './components/Profile';
 
 function App() {
     const developers = [
-        { id: 1, name: 'Brendan Eich', role: 'Creator of JavaScript', bgColor: 'bg-yellow-400' },
-        { id: 2, name: 'Jordan Walke', role: 'Creator of React', bgColor: 'bg-cyan-500' },
-        { id: 3, name: 'Guido van Rossum', role: 'Creator of Python', bgColor: 'bg-blue-500' },
-        { id: 4, name: 'Yukihiro Matsumoto', role: 'Creator of Ruby', bgColor: 'bg-red-500' },
-        { id: 5, name: 'Rasmus Lerdorf', role: 'Creator of PHP', bgColor: 'bg-indigo-500' }
+        { id: 1, name: 'robot1', role: 'Creator of the Earth', bgColor: 'bg-black' },
+        { id: 2, name: 'robot2', role: 'React Developer', bgColor: 'bg-white' },
+        { id: 3, name: 'robot3', role: 'Fullstack', bgColor: 'bg-black' },
+        { id: 4, name: 'robot4', role: 'Beatmaker', bgColor: 'bg-white' },
+        { id: 5, name: 'robot6', role: 'King of the graveyard', bgColor: 'bg-black' }
     ];
 
-    const avatarStyle = 'bottts'; // Спробуй також: 'adventurer', 'pixel-art', 'big-smile'
+    const avatarStyle = 'bottts';
 
     return (
         <div className="min-h-screen bg-gray-100 py-10 px-4">
